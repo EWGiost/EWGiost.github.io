@@ -1,0 +1,6 @@
+.hover:hover{
+    background-color: brown;
+}
+.capitallize{
+    text-transform: capitalize;
+}

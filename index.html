@@ -1,43 +1,69 @@
 <!DOCTYPE html>
-<html lang="cn">
+<html lang="zh-CN">
 <head>
 <meta charset="utf-8">
+<link re1="stylesheet" type="text/css" href="/CSS/main.css">
+<style type="text/css">
+  body
+  {
+    background-color:#6cafce;
+  }
+  h1
+  {
+    background-color: rgb(131, 12, 12);
+  }
+  .container{
+    text-align: center;
+    background-position: center;
+  }
+  .footer_info{
+    text-align: center;
+    clear: both;
+  }
+  .hover:hover{
+    background-color: brown;
+  }
+  .capitalize{
+    text-transform: capitalize;
+  }
+  .box{
+    background-color: aqua;
+    width: 500px;height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    border-style: dashed;border-width: 2px;
+  }
+  </style>
 <title>DEATH NOTE</title>
-<base></base>
 </head>
-<body style="background-color:rgb(39, 31, 31);">
-<div>
-  <table>
-    <h1 style="text-align:center"><span style="color:rgb(255,0,0);">Hello</span> <span style="color:rgb(0, 0, 255);">World</span></h1>
-    <p>I'm hosted with GitHub Pages.</p>
-    <p><a href="https://ewgiost.github.io/" target="_blank">这是一个链接</a></p><!--target="&quot;_blank&quot"-->
-    <img src="https://s1.imgbed.xyz/2022/10/30/C1qaa.jpg" alt="C1qaa.jpg" border="0" /> <!--width="" heigth=""-->
-    <hr/>
-    <p><sup>zhang</sup><br>张</p>
-    <p style="text-align:center;"><a href="https://moecloud.cn/s/Kk9Gc8" target="_blank">bvn3.6.9.2</a></p>
-    <br>
-    <p style="text-align:center;"><a href="https://www.7-zip.org/" target="_blank">7z zip</a></p>
-  </table>
-<hr>
-</div>
-<p style="text-align:center;"><a href="/video.html" target="_blank">I Really Want To Stay At You House</a></p>
-<div id="video"></div>
-<script src="https://cdn.jsdelivr.net/npm/dplayer@1.27.0/dist/DPlayer.min.js"></script>
-<script>
-  var dp = new DPlayer({
-    container: document.getElementById('dplayer'),
-    video: {
-        url: 'https://drive.noire.cc/api/v3/file/preview/OwbE6Hm',
-    },
-});
-</script>
-<br>
-<div>
-  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=477933827&auto=1&height=66"></iframe>
-</div>
-<footer id="footer">
-  <div class="footer_info">
-    <p class="copyrights" style="text-align:center;">Copyright &copy; DEATH NOTE All Rights Reserved.<span class="powered">Powered by EGiost</span></p>
+<body>
+  <div style="height: 454px;background-image: url(/image/head.jpg);" class="container" >
+    <h1 style="text-shadow: 2px 2px rgb(223, 130, 130);"><span style="color:rgb(255,0,0);">DEATH</span> <span style="color:rgb(0, 0, 255);">NOTE</span></h1>
   </div>
+<br>
+  <div class="container">
+    <h2>徐政宇是我儿子</h2>
+  </div>
+  <div  class="box">
+    <h3>日记</h3>
+    <p>今天又认了个儿子，真是开心的一天！<br><i>What a good day!</i></p>
+    <br>
+    <p style="text-align: right ;">2020.11.5</p>
+  </div>
+  <div class="box">
+    <h3>MV</h3>
+    <video width="450px" height="230px" controls>
+      <source src="/video/Cyberpunk- Edgerunners - “I Really Want to Stay At Your House” by Rosa Walton - Music Video_3.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="container">
+    <a href="/video.html" class="hover"><span class="capitalize">i really want to stay at you house</span></a>
+  </div>
+  <div style="position: fixed;bottom: 0px;">
+    <audio auto play loop controls><source src="/audio/S.T.A.Y. (Delta Heavy Tribute).m4a"></audio>
+  </div>
+<div class="footer_info">
+<p><small>Copyright © DEATH NOTE All Rights Reserved.Powered by EGiost</small></p>
+</div>
 </body>
 </html>
