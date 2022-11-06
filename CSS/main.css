@@ -1,6 +1,6 @@
 .hover:hover{
-    background-color: brown;
+    background-color: rgba(255, 251, 0, 0.582);
 }
-.capitallize{
+.capitalize{
     text-transform: capitalize;
 }
