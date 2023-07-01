@@ -1,8 +1,9 @@
 on: push
 
 jobs:
-  name: first job
-  runs-on: ubuntu-latest
-  steps:
-    run:
-      npm install dplayer --save
+  job:
+    name: job
+    runs-on: ubuntu-latest
+    steps:
+      run:
+        npm install dplayer --save
