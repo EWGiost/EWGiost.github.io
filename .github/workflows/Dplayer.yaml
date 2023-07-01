@@ -5,5 +5,10 @@ jobs:
     name: job
     runs-on: ubuntu-latest
     steps:
+    - name: Dplayer
+      uses: EWGiost
+      env:
+        ACCESS_TOKEN: ${{ uPesdgNbK1bNAqoUwRm/j+NppktzveLr+s8JIBBt7YM }}
+        BUILD_SCRIPT: npm install && npm run build
       run:
         npm install dplayer --save
